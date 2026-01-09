@@ -1,0 +1,142 @@
+h3.russo-heading {
+    font-family: 'Russo One', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    font-size: 1.3rem;
+}
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff7f2;
+    color: #222;
+}
+header {
+    background: #ff4f00;
+    color: #fff;
+    padding: 1.5rem 0 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Russo One', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+}
+
+h2, h3 {
+    font-family: 'Russo One', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: 500;
+}
+.hero {
+        background: linear-gradient(rgba(255,79,0,0.7), rgba(255,79,0,0.7)), url('ms400c.jpg') center 60%/cover no-repeat;
+    color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+.cta {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 2rem;
+    background: #ff7300;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+.cta:hover {
+    background: #d35400;
+}
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+#services {
+    margin-bottom: 2rem;
+}
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+}
+.service {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    flex: 1 1 250px;
+    padding: 1.5rem;
+    min-width: 250px;
+}
+
+.service-img {
+    width: 100%;
+    max-width: 320px;
+    aspect-ratio: 4/3;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 1rem auto;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+    margin: 0 auto;
+}
+#contact-form input, #contact-form textarea {
+    padding: 0.5rem;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+#contact-form button {
+    background: #ff9800;
+    color: #fff;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+#contact-form button:hover {
+    background: #d35400;
+}
+footer {
+    background: #ff7300;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+@media (max-width: 700px) {
+    .service-list {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
