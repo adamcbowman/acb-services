@@ -48,10 +48,24 @@ nav a {
     font-weight: 500;
 }
 .hero {
-    background: linear-gradient(rgba(255,79,0,0.6), rgba(255,79,0,0.6)), url('IMG_4245.jpg') 5% 50%/cover no-repeat;
+    position: relative;
     color: #fff;
     padding: 2rem 1rem;
     text-align: center;
+    overflow: hidden;
+}
+.hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url('IMG_4245.jpg') 5% 50%/cover no-repeat;
+    filter: blur(3px) brightness(0.6);
+    transform: scale(1.05);
+    z-index: 0;
+}
+.hero > * {
+    position: relative;
+    z-index: 1;
 }
 .cta, button.cta {
     display: inline-block;
