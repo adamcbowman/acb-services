@@ -1,2 +1,5 @@
-// ACB Services - no contact form active
-// Reserved for future use
+// Reveal phone number on click
+function revealNumber() {
+    document.getElementById('reveal-btn').style.display = 'none';
+    document.getElementById('phone-link').style.display = 'inline-block';
+}
