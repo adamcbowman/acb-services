@@ -1,5 +1,6 @@
-// Reveal phone number on click
 function revealNumber() {
-    document.getElementById('reveal-btn').style.display = 'none';
-    document.getElementById('phone-link').style.display = 'inline-block';
+    var btn = document.getElementById('reveal-btn');
+    var link = document.getElementById('phone-link');
+    if (btn) btn.style.display = 'none';
+    if (link) link.style.display = 'inline-block';
 }

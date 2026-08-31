@@ -8,6 +8,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script>
+        function revealNumber() {
+            var btn = document.getElementById('reveal-btn');
+            var link = document.getElementById('phone-link');
+            if (btn) btn.style.display = 'none';
+            if (link) link.style.display = 'inline-block';
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -61,6 +69,5 @@
         <p>&copy; 2026 ACB Services. All rights reserved.<br>
         Email: <a href="mailto:info@acbservices.work">info@acbservices.work</a></p>
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>

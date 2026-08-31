@@ -53,18 +53,22 @@ nav a {
     padding: 2rem 1rem;
     text-align: center;
 }
-.cta {
+.cta, button.cta {
     display: inline-block;
     margin-top: 1rem;
     padding: 0.75rem 2rem;
     background: #ff7300;
     color: #fff;
+    border: none;
     border-radius: 4px;
     text-decoration: none;
     font-weight: bold;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    cursor: pointer;
     transition: background 0.2s;
 }
-.cta:hover {
+.cta:hover, button.cta:hover {
     background: #d35400;
 }
 main {
