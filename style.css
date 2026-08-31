@@ -48,7 +48,7 @@ nav a {
     font-weight: 500;
 }
 .hero {
-        background: linear-gradient(rgba(255,79,0,0.7), rgba(255,79,0,0.7)), url('ms400c.jpg') center 60%/cover no-repeat;
+    background: linear-gradient(rgba(255,79,0,0.6), rgba(255,79,0,0.6)), url('IMG_4245.jpg') center 40%/cover no-repeat;
     color: #fff;
     padding: 2rem 1rem;
     text-align: center;
