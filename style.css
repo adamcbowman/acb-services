@@ -126,6 +126,21 @@ main {
     border-radius: 6px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.10);
 }
+#why-selective {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+#why-selective h2 {
+    margin-top: 0;
+}
+.why-selective-content p {
+    line-height: 1.7;
+    margin-bottom: 1rem;
+    max-width: 720px;
+}
 #contact-form {
     display: flex;
     flex-direction: column;
