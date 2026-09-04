@@ -15,12 +15,23 @@
             if (btn) btn.style.display = 'none';
             if (link) link.style.display = 'inline-block';
         }
+        function setLogoViewBox() {
+            var svg = document.getElementById('header-svg');
+            if (!svg) return;
+            if (window.innerWidth < 700) {
+                svg.setAttribute('viewBox', '140 0 420 210');
+            } else {
+                svg.setAttribute('viewBox', '0 0 680 210');
+            }
+        }
+        window.addEventListener('load', setLogoViewBox);
+        window.addEventListener('resize', setLogoViewBox);
     </script>
 </head>
 <body>
     <header>
         <div class="header-logo-wrap">
-            <svg width="100%" viewBox="0 0 680 210" role="img" xmlns="http://www.w3.org/2000/svg">
+            <svg id="header-svg" width="100%" viewBox="0 0 680 210" role="img" xmlns="http://www.w3.org/2000/svg">
                 <title>ACB Services</title>
                 <desc>ACB Services logo with pine tree</desc>
                 <g transform="translate(200, 10)">
