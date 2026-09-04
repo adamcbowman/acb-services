@@ -18,8 +18,8 @@ header {
     text-align: center;
 }
 .header-logo-wrap {
-    max-width: 320px;
-    width: 60%;
+    max-width: 600px;
+    width: 85%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
