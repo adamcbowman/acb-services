@@ -18,10 +18,12 @@ header {
     text-align: center;
 }
 .header-logo-wrap {
-    max-width: 520px;
-    width: 90%;
+    max-width: 320px;
+    width: 60%;
     margin: 0 auto;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header h1 {
