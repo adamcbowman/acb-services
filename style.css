@@ -189,5 +189,9 @@ footer {
     .header-logo-wrap {
         width: 100%;
         max-width: 100%;
+        min-height: 160px;
+    }
+    header {
+        padding: 1.5rem 0;
     }
 }
