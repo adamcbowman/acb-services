@@ -14,9 +14,15 @@ body {
 }
 header {
     background: #ff4f00;
-    color: #fff;
-    padding: 1.5rem 0 1rem 0;
+    padding: 1rem 0;
     text-align: center;
+}
+.header-logo {
+    max-width: 480px;
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 header h1 {
