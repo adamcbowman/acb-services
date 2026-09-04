@@ -186,4 +186,8 @@ footer {
         flex-direction: column;
         gap: 1rem;
     }
+    .header-logo-wrap {
+        width: 100%;
+        max-width: 100%;
+    }
 }
